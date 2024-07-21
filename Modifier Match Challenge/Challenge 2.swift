@@ -50,12 +50,13 @@ struct Challenge_2: View {
             .opacity(0.7)
             
     }
-    .padding()
+    .padding(.all, 30)
     .background(
       LinearGradient(
         gradient: Gradient(
           colors: [Color.white, Color.blue]),
-        startPoint: .topLeading, endPoint: .bottom
+        startPoint: .topLeading,
+        endPoint: .bottom
       )
     )
     .cornerRadius(12.0)
